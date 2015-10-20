@@ -22,8 +22,7 @@
 }
 
 -(float)volume{
-    float volume;
-    return volume = self.height * self.width * self.depth;
+    return self.height * self.width * self.depth;
 }
 
 -(float)fitsInBox: (Box *)otherBox {
